@@ -1,0 +1,14 @@
+{
+  "name": "houmio-jukebox",
+  "version": "0.0.0",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "socket.io-client": "1.3.6",
+    "body-parser": "1.15.1",
+    "express": "4.13.1"
+  }
+}
