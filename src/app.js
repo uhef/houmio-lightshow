@@ -17,7 +17,7 @@ let state = {
   _delay: 3000,
   _selectedColor: 0,
   set delay(val) {
-    if (!isNaN(val) && val >= 500) {
+    if (!isNaN(val) && val >= 500 && isFinite(val)) {
       this._delay = val;
     } else {
       throw new Error('Invalid value!');
